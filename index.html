@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Vamos Contar</h1>
+
+      <label for="caixa1">Número inicial:</label>
+      <input type="number" name="caixa1" id="caixa1" />
+      <br />
+
+      <label for="caixa2">Número até onde deseja contar:</label>
+      <input type="number" name="caixa2" id="caixa2" />
+      <br />
+      <label for="caixa3">De quanto em quanto deseja pular:</label>
+      <input type="number" name="caixa3" id="caixa3" />
+      <br />
+
+      <button
+        id="clique"
+        type="button"
+        value="Clica aqui por favor"
+        onclick="clicou()"
+      >
+        Gerar Contagem
+      </button>
+      
+      <p>Contando:</p>
+      <p id="contagem"></p>
+      <p id="rodape">♥️ Projeto feito com JavaScript. ♥️</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
